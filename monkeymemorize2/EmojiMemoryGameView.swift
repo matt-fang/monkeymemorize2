@@ -53,7 +53,7 @@ struct CardView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 20)
+            RoundedRectangle(cornerRadius: 30)
                 .foregroundStyle(.regularMaterial)
                 .aspectRatio(2/3, contentMode: .fit)
             Text(content)
